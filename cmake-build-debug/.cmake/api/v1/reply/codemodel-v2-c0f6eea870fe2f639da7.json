@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -70,6 +72,13 @@
 					"id" : "3A::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-3A-Debug-02e6d1a9c92540314561.json",
 					"name" : "3A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3B-Debug-31e9e6757d7a0c53fe48.json",
+					"name" : "3B",
 					"projectIndex" : 0
 				},
 				{
