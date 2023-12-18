@@ -7,3 +7,4 @@ add_executable(Libreria_estandar_de_C
         2a.cpp)
 add_executable(1A 1A.cpp)
 add_executable(1B 1B.cpp)
+add_executable(2B 2B.cpp)

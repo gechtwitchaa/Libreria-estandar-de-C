@@ -139,6 +139,39 @@ build 1B.exe: CXX_EXECUTABLE_LINKER__1B_Debug CMakeFiles/1B.dir/1B.cpp.obj
   TARGET_IMPLIB = lib1B.dll.a
   TARGET_PDB = 1B.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2B
+
+
+#############################################
+# Order-only phony target for 2B
+
+build cmake_object_order_depends_target_2B: phony || CMakeFiles/2B.dir
+
+build CMakeFiles/2B.dir/2B.cpp.obj: CXX_COMPILER__2B_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/2B.cpp || cmake_object_order_depends_target_2B
+  DEP_FILE = CMakeFiles\2B.dir\2B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2B.dir
+  OBJECT_FILE_DIR = CMakeFiles\2B.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2B
+
+
+#############################################
+# Link the executable 2B.exe
+
+build 2B.exe: CXX_EXECUTABLE_LINKER__2B_Debug CMakeFiles/2B.dir/2B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2B.exe
+  TARGET_IMPLIB = lib2B.dll.a
+  TARGET_PDB = 2B.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -169,6 +202,8 @@ build 1A: phony 1A.exe
 
 build 1B: phony 1B.exe
 
+build 2B: phony 2B.exe
+
 build Libreria_estandar_de_C: phony Libreria_estandar_de_C.exe
 
 # =============================================================================
@@ -179,7 +214,7 @@ build Libreria_estandar_de_C: phony Libreria_estandar_de_C.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug
 
-build all: phony Libreria_estandar_de_C.exe 1A.exe 1B.exe
+build all: phony Libreria_estandar_de_C.exe 1A.exe 1B.exe 2B.exe
 
 # =============================================================================
 # Built-in targets

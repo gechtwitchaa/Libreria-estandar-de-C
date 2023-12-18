@@ -1,5 +1,6 @@
 C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug/CMakeFiles/Libreria_estandar_de_C.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug/CMakeFiles/1A.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug/CMakeFiles/1B.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug/CMakeFiles/2B.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
