@@ -106,6 +106,39 @@ build 1A.exe: CXX_EXECUTABLE_LINKER__1A_Debug CMakeFiles/1A.dir/1A.cpp.obj
   TARGET_IMPLIB = lib1A.dll.a
   TARGET_PDB = 1A.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1B
+
+
+#############################################
+# Order-only phony target for 1B
+
+build cmake_object_order_depends_target_1B: phony || CMakeFiles/1B.dir
+
+build CMakeFiles/1B.dir/1B.cpp.obj: CXX_COMPILER__1B_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/1B.cpp || cmake_object_order_depends_target_1B
+  DEP_FILE = CMakeFiles\1B.dir\1B.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1B.dir
+  OBJECT_FILE_DIR = CMakeFiles\1B.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1B
+
+
+#############################################
+# Link the executable 1B.exe
+
+build 1B.exe: CXX_EXECUTABLE_LINKER__1B_Debug CMakeFiles/1B.dir/1B.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1B.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1B.exe
+  TARGET_IMPLIB = lib1B.dll.a
+  TARGET_PDB = 1B.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 1A: phony 1A.exe
 
+build 1B: phony 1B.exe
+
 build Libreria_estandar_de_C: phony Libreria_estandar_de_C.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build Libreria_estandar_de_C: phony Libreria_estandar_de_C.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/Libreria-estandar-de-C/cmake-build-debug
 
-build all: phony Libreria_estandar_de_C.exe 1A.exe
+build all: phony Libreria_estandar_de_C.exe 1A.exe 1B.exe
 
 # =============================================================================
 # Built-in targets
