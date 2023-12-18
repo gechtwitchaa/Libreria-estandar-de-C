@@ -10,4 +10,20 @@ int main() {
         return 1;
     }
 
- 
+    FILE *file = fopen(filename, "r");
+    if (file == NULL) {
+        printf("El archivo no existe. Creando el archivo...\n");
+        file = fopen(filename, "w");
+        if (file == NULL) {
+            printf("Error al crear el archivo.\n");
+            return 1;
+        }
+        printf("El archivo '%s' se ha creado con éxito.\n", filename);
+        fclose(file);
+    } else {
+        printf("El archivo '%s' existe.\n", filename);
+        fclose(file);
+    }
+
+    return 0;
+}
